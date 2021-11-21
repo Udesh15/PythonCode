@@ -1,0 +1,12 @@
+#Fctor of a Nomber
+def Fctors(N):
+    N = int(input())
+    Fctor_Count = 0
+    for i in range(1,99):
+        if(N%i == 0):
+            print(str(i)+"Is a Factor of the"+str(N))
+            Fctor_Count += 1
+    print(str(Fctor_Count)+" Total No of Factors")
+
+        
+print(Fctors(15))  
