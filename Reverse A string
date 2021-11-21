@@ -1,0 +1,7 @@
+#Reverse A string
+
+N = input()
+Str = ''
+for i in N :
+    Str = i + Str
+print(Str)
