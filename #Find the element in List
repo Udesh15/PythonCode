@@ -1,0 +1,15 @@
+#Find the element in List
+def SumofList(N):
+    Fin_Value = int(input())
+    a = []
+    N = int(input("Enter the Length of list you want"))
+    for i in range(N):
+        x = int(input('ENTER THE VALUE YOU WANT IN LIST : '))
+        a.append(x)
+    for i in a:
+        if(int(i) == Fin_Value):
+            return(i)       
+        
+        
+#def PrintSum():
+print(SumofList(5))
