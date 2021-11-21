@@ -1,0 +1,18 @@
+#Armstrong Number
+
+Num = input()
+Str_Count =  0 
+Arm_Num = 0
+for i in Num:
+    Str_Count += 1
+#Num = Num ** 2
+for i in Num:
+    Arm_Num = (int(i) ** Str_Count) + Arm_Num
+
+if(Arm_Num == int(Num)):
+    print("It is a Armstrong Number!")
+else:
+    print("It is not a Armstrong Number!")
+print(Arm_Num)
+print(Num)
+print(Str_Count)
