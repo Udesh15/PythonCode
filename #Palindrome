@@ -1,0 +1,12 @@
+#Palindrome 
+N = input()
+Str = ''
+for i in N :
+    Str = i + Str
+    
+if(N == Str):
+    print("Its is a palindrome!")
+else:
+    print("Not a palindrome")
+        
+print(Str)
