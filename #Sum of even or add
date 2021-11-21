@@ -1,0 +1,11 @@
+#Sum of even or add 
+N = input()
+Even_Sum = 0
+Odd_Sum = 0
+for i in  N:
+    if(int(i)%2 == 0):
+        Even_Sum = int(i) + Even_Sum
+    else:
+        Odd_Sum = int(i) + Odd_Sum
+print(Even_Sum)
+print(Odd_Sum)
