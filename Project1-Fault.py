@@ -19,7 +19,7 @@ def OperationAsperUser():
     a = int(input("Enter the value of 1st Element : "))
     b = int(input('Enter the value of 2nd Element : '))
     print(
-        "Hello! These are the Possible Operations, Enter the Symbol as Specified :  Addition : + \n Subraction : - \n Division : / \n Multiply : *")
+        "Hello! These are the Possible Operations, Enter the Symbol as Specified :  \n Addition : + \n Subraction : - \n Division : / \n Multiply : *")
     Opera = input("Enter the operation you want to do : ")
     if Opera == '+':
         c = addition(a, b)
@@ -42,8 +42,9 @@ def Rerun():
     RunAgain = input("If You want to do Any otherOperation Press 'Y', Else Press Enter to exit ")
     if RunAgain == 'Y' :
         OperationAsperUser()
-    #else :
     print("Thank You For Using the Calculator!")
+    #else :
+    #print("Thank You For Using the Calculator!")
 
 
 OperationAsperUser()
