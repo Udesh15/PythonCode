@@ -1,8 +1,15 @@
 n = 10
+print("\n")
+print('*'*500)
 print("Welcome!, In this Game You can Choose A number and let your friend Guess It, in the Agreed No. of Attempts")
+print('*'*500)
+print("\n")
 InputChoice = input("We have a pre-defined Value Also,if you want go ahead with Your Number, Just Press 'Y' ")
 if (InputChoice == 'Y'):
-    n = int(input("Choose the NUmber You want Your Friend To  Guess!"))
+    n = int(input("Choose the NUmber You want Your Friend To  Guess! : "))
+    print("Well Be clearing Your Screen Now! To Hide the Number from your Friend")
+    print("\n"*50)
+print("We have  cleared Your Screen Now! To Hide the Number from your Friend \nFollow The Scrren Instruction To play Now :")
 Attempts = int(input("Enter the No Of Attempts You want : "))
 AttemptsLeft = 0
 while Attempts-AttemptsLeft > 0 :
