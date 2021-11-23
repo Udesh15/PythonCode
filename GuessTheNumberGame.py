@@ -6,10 +6,14 @@ print('*'*500)
 print("\n")
 InputChoice = input("We have a pre-defined Value Also,if you want go ahead with Your Number, Just Press 'Y' ")
 if (InputChoice == 'Y'):
+    print("\n")
     n = int(input("Choose the NUmber You want Your Friend To  Guess! : "))
     print("Well Be clearing Your Screen Now! To Hide the Number from your Friend")
     print("\n"*50)
+print('*'*700)
 print("We have  cleared Your Screen Now! To Hide the Number from your Friend \nFollow The Scrren Instruction To play Now :")
+print('*'*500)
+print("\n")
 Attempts = int(input("Enter the No Of Attempts You want : "))
 AttemptsLeft = 0
 while Attempts-AttemptsLeft > 0 :
