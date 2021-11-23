@@ -12,29 +12,39 @@ def multiplication(a, b):
     return (c)
 
 def division(a, b):
-    c = b / a
+    c = a/b
     return (c)
 
 def OperationAsperUser():
-    a = int(input())
-    b = int(input())
+    a = int(input("Enter the value of 1st Element : "))
+    b = int(input('Enter the value of 2nd Element : '))
+    print(
+        "Hello! These are the Possible Operations, Enter the Symbol as Specified :  Addition : + \n Subraction : - \n Division : / \n Multiply : *")
     Opera = input("Enter the operation you want to do : ")
-    if Opera == 'addition':
+    if Opera == '+':
         c = addition(a, b)
         print(c)
         Rerun()
-    elif Opera == 'subtraction':
-        subtraction(a, b)
-    elif Opera == 'multiply':
-        multiplication(a, b)
-    elif Opera == 'division':
-        division(a, b)
+    elif Opera == '-':
+        c = subtraction(a, b)
+        print(c)
+        Rerun()
+    elif Opera == '*':
+        c = multiplication(a, b)
+        print(c)
+        Rerun()
+    elif Opera == '/':
+        c = division(a, b)
+        print(c)
+        Rerun()
+
 def Rerun():
-    RunAgain = input("If You want to do Any otherOperation Press 'Y'")
+    RunAgain = input("If You want to do Any otherOperation Press 'Y', Else Press Enter to exit ")
     if RunAgain == 'Y' :
         OperationAsperUser()
-    else :
-        print("Thank You For Using the Calculator!")
+    #else :
+    print("Thank You For Using the Calculator!")
+
 
 OperationAsperUser()
 
