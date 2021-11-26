@@ -1,5 +1,0 @@
-#Fctor of a Nov
-N = int(input())
-for i in range(1,99):
-    if(N%i == 0):
-        print(str(i)+"Is a Factor of the"+str(N))

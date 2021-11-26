@@ -1,7 +1,0 @@
-#Variable List Populating
-a = []
-N = int(input("Enter the Length of list"))
-for i in range(N):
-    Value = input("print value")
-    a.append(Value)
-print(a)

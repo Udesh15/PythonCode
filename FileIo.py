@@ -1,0 +1,5 @@
+file1 = open("MyFile.txt")
+#file1.write("This should be aaded")
+content = file1.read()
+print(content)
+file1.close()

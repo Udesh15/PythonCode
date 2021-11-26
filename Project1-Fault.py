@@ -43,8 +43,6 @@ def Rerun():
     if RunAgain == 'Y' :
         OperationAsperUser()
     print("Thank You For Using the Calculator!")
-    #else :
-    #print("Thank You For Using the Calculator!")
 
 
 OperationAsperUser()
