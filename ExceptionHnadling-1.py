@@ -2,10 +2,14 @@ while True :
     try:
      N = int(input("Enter the digit :"))
      M = int(input("Enter the digit :"))
-     M+N
+
     except ValueError as  E:
      print(E)
-     break
+     #break
+    else:
+       M =  M + N
+       print(M)
+    break
 
 # while True:
 #     try:
