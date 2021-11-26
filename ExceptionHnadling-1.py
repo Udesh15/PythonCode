@@ -9,7 +9,7 @@ while True :
     else:
        M =  M + N
        print(M)
-    break
+       break
 
 # while True:
 #     try:
